@@ -1,7 +1,7 @@
 variable "project" {
     description = "Google Project ID from Doormat"
     type = string
-    default = "hc-e0c4d4af504d4dd097fa45c3cfd"
+    default = "hc-bbea0a79deed42a3b55f5fa4f13"
 }
 
 variable "region" {
@@ -52,11 +52,11 @@ variable "ssh_pub_key" {
 }
 
 variable "autojoin_tags" {
-    default = "provider=gce project_name=hc-e0c4d4af504d4dd097fa45c3cfd tag_value=nomad-server"
+    default = "provider=gce project_name=hc-bbea0a79deed42a3b55f5fa4f13 tag_value=nomad-server"
   
 }
 variable "consul_autojoin_tags" {
-    default = "provider=gce project_name=hc-e0c4d4af504d4dd097fa45c3cfd tag_value=consul-server"
+    default = "provider=gce project_name=hc-bbea0a79deed42a3b55f5fa4f13 tag_value=consul-server"
   
 }
 variable "nvidia_node_type" {
