@@ -1,0 +1,5 @@
+*.hclic
+*.terraform*
+*.lock.hclic
+*.tfstate*
+
