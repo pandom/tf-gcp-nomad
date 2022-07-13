@@ -115,8 +115,8 @@ variable "instance_size" {
 # Burkey's address
 variable "myip" {
     description = "my home IP address"
-    # default = "120.148.55.102/32"
-    default = "1.145.202.55/32"
+    default = "120.148.55.102/32"
+    
   
 }
 ##default google internal networks
