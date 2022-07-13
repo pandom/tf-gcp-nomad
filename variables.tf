@@ -115,7 +115,7 @@ variable "instance_size" {
 # Burkey's address
 variable "myip" {
     description = "my home IP address"
-    default = "1.1.1.1/32"
+    default = "59.100.243.114/32"
     
   
 }
