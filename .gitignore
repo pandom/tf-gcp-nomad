@@ -3,3 +3,4 @@
 *.lock.hclic
 *.tfstate*
 
+*.DS_Store
