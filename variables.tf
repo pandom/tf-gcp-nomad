@@ -1,7 +1,7 @@
 variable "project" {
     description = "Google Project ID from Doormat"
     type = string
-    default = "hc-bbea0a79deed42a3b55f5fa4f13"
+    default = "hc-20734ed73db943d4ade2b1e9cb9"
 }
 
 variable "region" {
@@ -22,7 +22,7 @@ variable "hcp_bucket" {
 
 variable "hcp_channel" {
     type = string
-    default = "deployment"
+    default = "development"
   
 }
 
@@ -52,11 +52,11 @@ variable "ssh_pub_key" {
 }
 
 variable "autojoin_tags" {
-    default = "provider=gce project_name=hc-bbea0a79deed42a3b55f5fa4f13 tag_value=nomad-server"
+    default = "provider=gce project_name=hc-20734ed73db943d4ade2b1e9cb9 tag_value=nomad-server"
   
 }
 variable "consul_autojoin_tags" {
-    default = "provider=gce project_name=hc-bbea0a79deed42a3b55f5fa4f13 tag_value=consul-server"
+    default = "provider=gce project_name=hc-20734ed73db943d4ade2b1e9cb9 tag_value=consul-server"
   
 }
 variable "nvidia_node_type" {
@@ -115,7 +115,7 @@ variable "instance_size" {
 # Burkey's address
 variable "myip" {
     description = "my home IP address"
-    default = "120.148.55.102/32"
+    default = "180.150.37.27/32"
   
 }
 ##default google internal networks
